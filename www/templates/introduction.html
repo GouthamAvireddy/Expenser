@@ -1,0 +1,26 @@
+<ion-view hide-nav-bar="true" class="background-intro">
+    <ion-content has-header="false" hide-nav-bar="true" padding="true" has-tabs="false">
+        <ion-slide-box show-pager="true">
+            <ion-slide>
+                <a href="#" class="logo"><span>€</span></a>
+                <h1 style="color: #000000;text-align: center;">Expenses</h1>
+                <p class="tagline">A Multi User Expenses tracker</p>
+            </ion-slide>
+            
+        </ion-slide-box>
+    </ion-content>
+    <ion-footer-bar class="bar-dark">
+        <div class="row">
+            <div class="col">
+                <a ui-sref="signin" class="button-intro button-dark">
+                    I have an account
+                </a>
+            </div>
+            <div class="col">
+                <a ui-sref="register" class="button-intro button-positive">
+                    {{"REGISTER" | translate}}
+                </a>
+            </div>
+        </div>
+    </ion-footer-bar>
+</ion-view>
